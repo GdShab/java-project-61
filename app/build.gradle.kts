@@ -2,6 +2,7 @@ plugins {
     id("java")
     id ("com.github.ben-manes.versions") version "0.53.0"
     application
+    id("org.sonarqube") version "6.3.1.5724"
 }
 
 group = "hexlet.code"
@@ -25,4 +26,10 @@ application {
 }
 tasks.getByName("run", JavaExec::class) {
     standardInput = System.`in`
+}
+sonar {
+    properties {
+        property("sonar.projectKey", "GdShab_java-project-612")
+        property("sonar.organization", "gdshab-1")
+    }
 }
