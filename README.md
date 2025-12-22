@@ -4,6 +4,9 @@
 ## Demo
 [![asciicast](https://asciinema.org/a/NWVEqrLEbSCNhFSk4VPhL34GH.svg)](https://asciinema.org/a/NWVEqrLEbSCNhFSk4VPhL34GH)
 
+[Посмотреть демонстрацию](https://asciinema.org/a/73tl88lbao1w77XQyOiypswAA)
+
+
 
 
 
