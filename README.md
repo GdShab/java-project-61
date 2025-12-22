@@ -4,7 +4,7 @@
 ## Demo
 [![asciicast](https://asciinema.org/a/NWVEqrLEbSCNhFSk4VPhL34GH.svg)](https://asciinema.org/a/NWVEqrLEbSCNhFSk4VPhL34GH)
 
-[Посмотреть демонстрацию](https://asciinema.org/a/73tl88lbao1w77XQyOiypswAA)
+<a href="https://asciinema.org/a/73tl88lbao1w77XQyOiypswAA" target="_blank"><img src="https://asciinema.org/a/73tl88lbao1w77XQyOiypswAA.svg" /></a>
 
 
 
