@@ -30,7 +30,7 @@ public class Progression {
             questionsAndAnswers[i][1] = correctAnswer;
         }
 
-        Engine.runGame(DESCRIPTION, questionsAndAnswers);
+        Engine.run(DESCRIPTION, questionsAndAnswers);
     }
 
     private static int[] generateProgression(int start, int step, int length) {

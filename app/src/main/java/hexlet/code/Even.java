@@ -19,7 +19,7 @@ public class Even {
             questionsAndAnswers[i][1] = correctAnswer;
         }
 
-        Engine.runGame(DESCRIPTION, questionsAndAnswers);
+        Engine.run(DESCRIPTION, questionsAndAnswers);
     }
 
     public static boolean isEven(int number) {

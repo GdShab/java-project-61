@@ -23,7 +23,7 @@ public class Calc {
             questionsAndAnswers[i][1] = correctAnswer;
         }
 
-        Engine.runGame(DESCRIPTION, questionsAndAnswers);
+        Engine.run(DESCRIPTION, questionsAndAnswers);
     }
 
     private static char getRandomOperation() {

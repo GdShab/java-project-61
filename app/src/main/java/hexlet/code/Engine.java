@@ -6,7 +6,7 @@ public class Engine {
 
     public static final int ROUNDS = 3;
 
-    public static void runGame(String description, String[][] questionsAndAnswers) {
+    public static void run(String description, String[][] questionsAndAnswers) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the Brain Games!");

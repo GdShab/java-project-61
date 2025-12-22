@@ -21,7 +21,7 @@ public class GCD {
             questionsAndAnswers[i][1] = String.valueOf(gcd(number1, number2));
         }
 
-        Engine.runGame(DESCRIPTION, questionsAndAnswers);
+        Engine.run(DESCRIPTION, questionsAndAnswers);
     }
 
     private static int gcd(int a, int b) {
