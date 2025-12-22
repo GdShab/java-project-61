@@ -2,9 +2,8 @@
 [![Actions Status](https://github.com/GdShab/java-project-61/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/GdShab/java-project-61/actions)
 
 ## Demo
-<script src="https://asciinema.org/js/asciinema-player.js" async></script>
+[![asciicast](https://asciinema.org/a/NWVEqrLEbSCNhFSk4VPhL34GH.svg)](https://asciinema.org/a/NWVEqrLEbSCNhFSk4VPhL34GH)
 
-<asciinema-player src="app/my-brain-games1.cast" autoplay="true" loop="true" preload="true"></asciinema-player>
 
 
 
