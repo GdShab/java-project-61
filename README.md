@@ -4,7 +4,7 @@
 ## Demo
 <script src="https://asciinema.org/js/asciinema-player.js" async></script>
 
-<asciinema-player src="app/my-brain-games.cast" autoplay="true" loop="true" preload="true"></asciinema-player>
+<asciinema-player src="app/my-brain-games1.cast" autoplay="true" loop="true" preload="true"></asciinema-player>
 
 
 
