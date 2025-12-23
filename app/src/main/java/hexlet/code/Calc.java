@@ -12,8 +12,8 @@ public class Calc {
         Random random = new Random();
 
         for (int i = 0; i < ROUNDS; i++) {
-            int num1 = random.nextInt(20);
-            int num2 = random.nextInt(20);
+            int num1 = random.nextInt(MAX_VALUE);
+            int num2 = random.nextInt(MAX_VALUE);
             char operation = getRandomOperation();
 
             String question = num1 + " " + operation + " " + num2;

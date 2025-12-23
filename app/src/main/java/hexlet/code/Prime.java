@@ -3,11 +3,12 @@ package hexlet.code;
 public class Prime {
 
     private static final String GAME_DESCRIPTION = "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
+    private static final int MAX_VALUE = 100;
 
     public static void run() {
         String[][] gameData = new String[Engine.ROUNDS][2];
         for (int i = 0; i < Engine.ROUNDS; i++) {
-            int number = Utils.generateRandomNumber(1, 100); // Генерация случайного числа
+            int number = Utils.generateRandomNumber(1, MAX_VALUE); // Генерация случайного числа
             gameData[i][0] = String.valueOf(number);
             gameData[i][1] = isPrime(number) ? "yes" : "no";
         }

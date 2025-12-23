@@ -13,7 +13,7 @@ public class Even {
         Random random = new Random();
 
         for (int i = 0; i < ROUNDS; i++) {
-            int number = random.nextInt(100);
+            int number = random.nextInt(MAX_VALUE);
             String question = String.valueOf(number);
             String correctAnswer = isEven(number) ? "yes" : "no";
 
