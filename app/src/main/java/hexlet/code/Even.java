@@ -2,11 +2,13 @@
 package hexlet.code;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Even {
     private static final String DESCRIPTION = "Answer 'yes' if the number is even, otherwise answer 'no'.";
-    private static final int ROUNDS = 3;public static void run() {
+    private static final int ROUNDS = 3;
+    private static final int MAX_VALUE = 100;
+
+    public static void run() {
         String[][] questionsAndAnswers = new String[ROUNDS][2];
         Random random = new Random();
 

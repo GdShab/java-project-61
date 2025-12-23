@@ -26,7 +26,9 @@ public class Engine {
             if (userAnswer.equals(correctAnswer)) {
                 System.out.println("Correct!");
             } else {
-                System.out.println("'" + userAnswer + "' is wrong answer ;(. Correct answer was '" + correctAnswer + "'.");
+                System.out.println("'" + userAnswer + "' is wrong answer ;(. Correct answer was '"
+                        + correctAnswer + "'.");
+
                 System.out.println("Let's try again, " + name + "!");
                 return;
             }

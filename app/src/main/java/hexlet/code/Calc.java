@@ -1,11 +1,12 @@
 package hexlet.code;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Calc {
     private static final String DESCRIPTION = "What is the result of the expression?";
     private static final int ROUNDS = 3;
+    private static final int MAX_VALUE = 20;
+
     public static void run() {
         String[][] questionsAndAnswers = new String[ROUNDS][2];
         Random random = new Random();
