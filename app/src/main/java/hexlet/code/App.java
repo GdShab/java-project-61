@@ -16,7 +16,7 @@ public class App {
         System.out.println("0 - Exit");
         System.out.println("Your choice: ");
 
-        String choice =scanner.next();
+        String choice = scanner.next();
 
         switch (choice) {
             case "1":
